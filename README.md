@@ -35,7 +35,7 @@ Based on the analysis, here are some of the most prominent findings:
 ### Data Source
 * **Dataset:** netflix_titles.csv
 * **Source:** Kaggle
-* **Tableau files:** Netflis_Dashboard
+* **Tableau files:** netflix_dashboard.twbx
 
 ### Author
 * **Name:** Nirmeet Choudhary
