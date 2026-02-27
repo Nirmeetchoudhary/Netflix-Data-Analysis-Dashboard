@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Netflix Dashboard - Tableau</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#f4f6f9;
+        }
+
+        header{
+            background:#111827;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        .container{
+            width:95%;
+            margin:20px auto;
+        }
+
+        .iframe-wrapper{
+            position:relative;
+            width:100%;
+            height:90vh;
+            background:white;
+            border-radius:10px;
+            box-shadow:0 8px 20px rgba(0,0,0,0.15);
+            overflow:hidden;
+        }
+
+        iframe{
+            width:100%;
+            height:100%;
+            border:none;
+        }
+
+        footer{
+            text-align:center;
+            padding:15px;
+            background:#111827;
+            color:white;
+            margin-top:20px;
+            font-size:13px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Netflix Data Analysis Dashboard</h1>
+    <p>Interactive Tableau Public Report</p>
+</header>
+
+<div class="container">
+    <div class="iframe-wrapper">
+        <iframe 
+            src="https://public.tableau.com/views/netflix_dashboard_17721865769060/Dashboard1?:embed=y&:display_count=yes&:showVizHome=no"
+            allowfullscreen>
+        </iframe>
+    </div>
+</div>
+
+<footer>
+    © 2026 Netflix Dashboard | Built with Tableau Public
+</footer>
+
+</body>
+</html>
